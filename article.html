@@ -9,9 +9,9 @@
   <link rel='stylesheet' type='text/css' media='screen' href='css/fonts.css'>
 </head>
 <body>
-  <header class="navbar">
-    <nav>
-      <div class="navButtons">
+  <header>
+    <nav class="navbar grid">
+      <div class="grip-item">
         <button id="navbarMenuButton" type="button">
           <!--New York Times uses the SVG html element for some elements in their website like the button graphics, and the New York Times logo on their navbar-->
           <svg class="navButtonImg" viewBox="0 0 16 16">
@@ -39,12 +39,14 @@
           </div>
         </div>
       </div>
-      <div class="nytHeader">
-        <a class="homepageLink" href="https://www.nytimes.com/"><img class="nytLogo" src="https://chicaspoderosas.org/wp-content/uploads/2020/04/New-York-Times-Logo.png"></a>
+      <div class="grip-item">
+        <a class="homepageLink" href="https://www.nytimes.com/">
+          <img class="nytLogo" src="https://chicaspoderosas.org/wp-content/uploads/2020/04/New-York-Times-Logo.png">
+        </a>
       </div>
-      <div class="righthandButtons">
-        <form class="subscribeLink" action="https://www.nytimes.com/subscription?campaignId=797YR"><input type="submit" value="Subscribe" class="nav_button"></form>
-        <form class="loginLink" action="https://myaccount.nytimes.com/auth/login"><input type="submit" value="Log In" class="nav_button"></form>
+      <div class="grip-item">
+        <form class="subscribeLink" action="https://www.nytimes.com/subscription?campaignId=797YR"><input type="submit" value="SUBSCRIBE" class="nav_button"></form>
+        <form class="loginLink" action="https://myaccount.nytimes.com/auth/login"><input type="submit" value="LOG IN In" class="nav_button"></form>
       </div>
     </nav>
   </header>
