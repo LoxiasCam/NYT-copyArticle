@@ -26,3 +26,17 @@ body {
   border-radius: 5px;
   text-decoration: none;
 }
+
+.navbar {
+  height: 43px;
+  width: 100%;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: solid 1px #000;
+}
+
+.nytHeader {
+  width: 100%;
+  background-color: blue;
+}

@@ -28,28 +28,28 @@
 
 @font-face {
   font-family: 'franklin';
-  src: url('/fonts/franklin-normal-300.woff2');
+  src: url('fonts/franklin-normal-300.woff2');
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'franklin';
-  src: url('/fonts/franklin-normal-500.woff2');
+  src: url('fonts/franklin-normal-500.woff2');
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'franklin';
-  src: url('/fonts/franklin-normal-300.woff2');
+  src: url('fonts/franklin-normal-300.woff2');
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'franklin';
-  src: url('/fonts/franklin-normal-300.woff2');
+  src: url('fonts/franklin-normal-300.woff2');
   font-style: normal;
   font-weight: 700;
 }
