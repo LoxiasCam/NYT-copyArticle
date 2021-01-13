@@ -55,21 +55,21 @@
 
 @font-face {
   font-family: 'iperial';
-  src: url('/fonts/franklin/imperial-italic-400.woff2');
+  src: url('/fonts/imperial/imperial-italic-400.woff2');
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'imperial';
-  src: url('/fonts/franklin/imperial-normal-400.woff2');
+  src: url('/fonts/imperial/imperial-normal-400.woff2');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'imperial';
-  src: url('/fonts/franklin/imperial-normal-700.woff2');
+  src: url('/fonts/imperial/imperial-normal-700.woff2');
   font-style: normal;
   font-weight: 700;
 }
