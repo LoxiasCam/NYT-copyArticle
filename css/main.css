@@ -1,4 +1,4 @@
-@import ".css/fonts.css";
+@import "fonts.css";
 
 * {
   padding: 0;
@@ -17,8 +17,6 @@ body {
   border-radius: 3px;
   color: #fff;
   font-family: 'franklin';
-  font-size: 11px;
-  font-weight: 700;
   padding: 10px;
   background-color: #567b95;
   border: solid #326891 1px;
@@ -28,6 +26,11 @@ body {
   text-align: center;
   margin: 3px;
   float: right;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .nav_button:hover {
@@ -75,7 +78,7 @@ body {
   height: 40px;
 }
 
-header {  
+.image_center {  
   margin: 120px auto 0 auto;
   width: 945px;
 }
@@ -83,8 +86,49 @@ header {
 .text_article {
   width: 550px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
- figure img {
+ .img_full {
   width: 100%;
 }
+
+.theory_grid {
+  width: 945px;
+  display: grid;
+  grid-template-columns: repeat(4,236px);
+  grid-template-rows: repeat(4, 137px);
+  background-image: url(../images/theoryImage.png);
+  background-size: cover;
+}
+
+.theory_grid_item {
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.theory_grid_block {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.caption{ 
+  color: #666666;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.main-tittle{
+  font-size: 40px;
+  font-family: 'chetelman';
+  font-style: italic;
+  line-height: 48px;
+  color: #121212;
+  font-weight: 700;
+  width: 600px;
+  margin: 0 auto;
+}
+
