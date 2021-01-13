@@ -3,8 +3,12 @@
 body {
   background-color: #fff;
   font-family: 'imperial';
+<<<<<<< HEAD
   margin: 0px 5px 0px 5px;
   box-sizing: border-box;
+=======
+  margin: 0;
+>>>>>>> 4ef11d1f60a407f31614864d2ff4156546e99a39
 }
 
 .nav_button {
