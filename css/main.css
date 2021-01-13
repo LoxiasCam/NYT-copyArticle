@@ -155,3 +155,33 @@ body {
   width: 30px;
   height: 30px;
 }
+<<<<<<< HEAD
+=======
+
+.footerNavLinks .leftLinks li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.25rem;
+}
+
+.footerNavLinks .subscribeSpam li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 0.25rem;
+}
+
+.bottomFooter .bottomFooterContent,
+.bottomFooter .bottomFooterContent ul,
+.bottomFooter .bottomFooterContent ul > li {
+  display: inline-block;
+}
+
+.bottomFooter .bottomFooterContent ul > li > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #6c6960;
+}
+>>>>>>> c6bec369a9e882ded1c659fa0c7f326d80af310b
