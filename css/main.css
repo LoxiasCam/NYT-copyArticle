@@ -1,14 +1,16 @@
-@import "css/fonts.css";
+@import ".css/fonts.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-color: #fff;
   font-family: 'imperial';
-<<<<<<< HEAD
-  margin: 0px 5px 0px 5px;
+  /*margin: 0px 5px 0px 5px;*/
   box-sizing: border-box;
-=======
-  margin: 0;
->>>>>>> 4ef11d1f60a407f31614864d2ff4156546e99a39
 }
 
 .nav_button {
@@ -25,6 +27,7 @@ body {
   cursor: pointer;
   text-align: center;
   margin: 3px;
+  float: right;
 }
 
 .nav_button:hover {
@@ -33,12 +36,16 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 43px;
   width: 100%;    
   border-bottom: solid 1px rgb(100, 100, 100);  
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #fff;
 }
 
 .left_items {
@@ -68,7 +75,16 @@ body {
   height: 40px;
 }
 
-main {
+header {  
+  margin: 120px auto 0 auto;
+  width: 945px;
+}
+
+.text_article {
   width: 550px;
-  
+  margin: 0 auto;
+}
+
+ figure img {
+  width: 100%;
 }
