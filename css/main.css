@@ -132,3 +132,48 @@ body {
   margin: 0 auto;
 }
 
+.footerNav,
+.bottomFooter {
+  width: 1100px;
+  margin: auto;
+  border-top: 1px solid #d3d3d3;
+}
+
+.footerNav .footerNavHeader {
+  border-top: 2px solid #d3d3d3;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.footerNavHeader .footerNavLogo {
+  width: 230px;
+}
+
+.footerHomepage .homepageLink {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+}
+
+.footerNavLinks {
+  display: inline-flex;
+}
+
+.footerNavLinks .leftLinks {
+  border-bottom: 1px solid #d3d3d3;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 3rem;
+}
+
+.footerNavLinks .subscribeSpam {
+  padding: 0 20px;
+  border-left: 1px solid #d3d3d3;
+}
+
+.bottomFooter .bottomFooterContent,
+.bottomFooter .bottomFooterContent ul,
+.bottomFooter .bottomFooterContent ul > li {
+  display: inline-block;
+}
