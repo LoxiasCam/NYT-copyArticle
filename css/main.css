@@ -51,11 +51,20 @@ body {
  width: 300px;
 }
 
+.centered_items img {
+  height: 30px;
+}
+
 .right_items {
   width: 300px;
   justify-items: right;
 }
 
-.nytLogo{
+.nytLogo {
   height: 40px;
+}
+
+main {
+  width: 550px;
+  
 }
