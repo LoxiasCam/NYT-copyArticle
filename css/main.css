@@ -84,7 +84,7 @@ body {
 }
 
 .text_article {
-  width: 585px;
+  width: 600px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -160,6 +160,29 @@ body {
   padding: 7px;
   width: 30px;
   height: 30px;
+}
+
+aside {
+  width: 20%;
+  height: 250px;
+  float: right;
+}
+
+.editors-pick {
+  float: left;
+  width: 210px;
+  height: 250px;
+}
+
+.editors-pick-article {
+  height: 75px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.editors-pick-img {
+  max-height: 75px;
+  max-width: 75px;
 }
 
 iframe {
@@ -258,4 +281,8 @@ iframe {
   font-size: 12px;
   font-weight: 300;
   color: #6c6960;
+}
+
+p a {
+  color: #326891;
 }

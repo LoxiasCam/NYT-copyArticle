@@ -20,6 +20,13 @@
 }
 
 @font-face {
+  font-family: 'cheltenham-small';
+  src: url('/fonts/cheltenham/cheltenham-small-normal-400.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
   font-family: 'cheltenham';
   src: url('/fonts/cheltenham/cheltenham-italic-700.woff2');
   font-style: italic;
