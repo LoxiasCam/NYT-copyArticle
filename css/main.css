@@ -138,7 +138,7 @@ body {
   margin: 0 auto;
 }
 
-.text_article .paragraph1 {
+.paragraph1 {
   font-family: 'imperial', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -222,7 +222,7 @@ iframe {
   border-bottom: 1px solid #d3d3d3;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  column-gap: 3rem;
+  column-gap: 1rem;
 }
 
 .footerNavLinks .subscribeSpam {
@@ -230,31 +230,22 @@ iframe {
   border-left: 1px solid #d3d3d3;
 }
 
-.footerNavLinks .leftLinks li {
+.listItem1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   margin-top: 0.25rem;
   list-style-type: none;
   padding-right: 1em;
+  padding-top: 0.75em;
 }
 
-.footerNavLinks .subscribeSpam li {
+.listItem2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 300;
   margin-top: 0.25rem;
   list-style-type: none;
-}
-
-.footerNavLinks .subscribeSpam ul:nth-child(2), 
-.footerNavLinks .subscribeSpam ul:nth-child(3) {
-  padding-top: 1rem;
-  line-height: 2.1;
-}
-
-.footerNavLinks .subscribeSpam ul:nth-child(3) {
-  border-top: 1px solid #d3d3d3;
 }
 
 .subscribeSpam .subscribeSpamSVG {
@@ -271,18 +262,29 @@ iframe {
 }
 
 .bottomFooter .bottomFooterContent,
-.bottomFooter .bottomFooterContent ul,
-.bottomFooter .bottomFooterContent ul > li {
+.bottomFooterContent .LinksList,
+.listItem {
   display: inline-block;
 }
 
-.bottomFooter .bottomFooterContent ul > li > a {
+.listItem {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 300;
   color: #6c6960;
 }
 
+<<<<<<< HEAD
 p a {
   color: #326891;
+=======
+.footerNavLinks .subscribeSpam ul:nth-child(2),
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  padding-top: 1rem;
+  line-height: 2.1;
+}
+
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  border-top: 1px solid #d3d3d3;
+>>>>>>> 5f52045470d66cb0a1de5e8f86df6d3e7d2044dc
 }
