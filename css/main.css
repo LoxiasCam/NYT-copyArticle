@@ -224,6 +224,29 @@ iframe {
   list-style-type: none;
 }
 
+.footerNavLinks .subscribeSpam ul:nth-child(2), 
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  padding-top: 1rem;
+  line-height: 2.1;
+}
+
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  border-top: 1px solid #d3d3d3;
+}
+
+.subscribeSpam .subscribeSpamSVG {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.subscribeSpam .subscribeSpamLink {
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .bottomFooter .bottomFooterContent,
 .bottomFooter .bottomFooterContent ul,
 .bottomFooter .bottomFooterContent ul > li {
