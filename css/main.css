@@ -153,6 +153,12 @@ p a:hover {
   line-height: 20px;
 }
 
+.Credit {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  color: #333;
+}
+
 .main-tittle {
   font-size: 40px;
   font-family: 'chetelman', Arial, Helvetica, sans-serif;
@@ -242,14 +248,15 @@ h4 {
   text-decoration: none;
 }
 
-h4:hover {
-  color: #666;
-  cursor: pointer;
+.youtubeVideo {
+  margin-left: calc((100% - 600px) / 2);
 }
 
-iframe {
-  width: 50vw;
-  height: 33vw;
+.youtubeVideo figcaption {
+  width: 560px;
+  margin: 0.6rem 1.25rem 0 0;
+  font-size: 13px;
+  color: #888;
 }
 
 .footerNav,
