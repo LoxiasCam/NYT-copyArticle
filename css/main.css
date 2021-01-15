@@ -12,6 +12,38 @@ body {
   overflow-x: hidden;
 }
 
+li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+p a {
+  color: #326891;
+}
+
+.left_items a {
+  margin-right: 10px;
+  color: #000;
+}
+
+.editors-pick-article a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: 'cheltenham-small', Arial, Helvetica, sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
 .nav_button {
   border-radius: 3px;
   color: #fff;
@@ -53,11 +85,6 @@ body {
 .left_items {
   width: 300px;
   justify-content: space-around;
-}
-
-.left_items a {
-  margin-right: 10px;
-  color: #000;
 }
 
 .centered_items {
@@ -179,15 +206,6 @@ aside {
   margin-top: 20px;
 }
 
-.editors-pick-article a {
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 400;
-  font-family: 'cheltenham-small';
-  color: #333;
-  text-decoration: none;
-}
-
 .editors-pick-article a:hover {
   text-decoration: underline;
 }
@@ -195,15 +213,15 @@ aside {
 .editors-pick-img {
   max-height: 75px;
   max-width: 75px;
-  float:left;
-  margin-right: 15px;;
+  float: left;
+  margin-right: 15px;
 }
 
 h2 {
   font-size: 14px;
   line-height: 14px;
   color: #333;
-  font-family: 'franklin';
+  font-family: 'franklin', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -211,7 +229,7 @@ h3 {
   font-size: 16px;
   line-height: 22px;
   color: #333;
-  font-family: 'franklin';
+  font-family: 'franklin', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -219,7 +237,7 @@ h4 {
   font-size: 18px;
   line-height: 22px;
   color: #333;
-  font-family: 'cheltenham';
+  font-family: 'cheltenham', Arial, Helvetica, sans-serif;
   font-weight: 500;
   text-decoration: none;
 }
@@ -284,17 +302,12 @@ iframe {
 }
 
 .listItem2 {
-  font-family: 'franklin';
+  font-family: 'franklin', Arial, Helvetica, sans-serif;
   font-size: 11px;
   margin-top: 0.25rem;
   line-height: 21px;
 }
 
-li a {
-  color:#000;
-  text-decoration: none;
-  font-weight: 500;
-}
 .subscribeSpam .subscribeSpamSVG {
   display: inline-block;
   height: 13px;
@@ -330,31 +343,20 @@ li a {
   border-top: 1px solid #d3d3d3;
 }
 
-li {
-  list-style-type: none;
-}
-p a {
-  color: #326891;
-}
-
-p a:hover {
-  text-decoration: none;
-}
-
 .footer-link {
-  font-family: 'franklin';
+  font-family: 'franklin', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   text-decoration: none;
-  color:#000;
+  color: #000;
 }
 
 .subscribe-link {
   font-size: 16px;
   line-height: 14px;
   color: #000;
-  font-family: 'franklin';
+  font-family: 'franklin', Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-decoration: none;
   margin-top: 15px;
@@ -363,16 +365,16 @@ p a:hover {
 .footer-content {
   width: 1160px;
   height: 1130px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
-.footer-content-left{
+.footer-content-left {
   float: left;
   width: 70%;
   height: 100%;
 }
 
-.footer-content-right{
+.footer-content-right {
   float: right;
   width: 30%;
   height: 100%;
@@ -386,7 +388,7 @@ p a:hover {
   height: auto;
 }
 
-.footer-vertical-grid{
+.footer-vertical-grid {
   display: flex;
   justify-content: space-around;
 }
@@ -407,11 +409,10 @@ p a:hover {
   max-width: 100%;
 }
 
-.most-popular-tittle{
+.most-popular-tittle {
   width: 92%;
   height: auto;
   border-top: solid 1px #e2e2e2;
   margin: 4%;
   padding-top: 10px;
-
 }
