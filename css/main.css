@@ -7,7 +7,6 @@
 
 body {
   background-color: #fff;
-  font-family: 'imperial', Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -167,7 +166,7 @@ p a:hover {
 
 .main-tittle {
   font-size: 40px;
-  font-family: 'chetelman', Arial, Helvetica, sans-serif;
+  font-family: 'cheltenham', Arial, Helvetica, sans-serif;
   font-style: italic;
   line-height: 48px;
   color: #121212;
@@ -442,4 +441,43 @@ h4 {
   border-top: solid 1px #e2e2e2;
   margin: 4%;
   padding-top: 10px;
+}
+
+.suggest-container {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+}
+
+.suggest-button-container {
+  width: 100%;
+  padding: 0px 15px;
+  height: 120px;
+}
+
+.plus {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  float: right;
+  padding: 4px 6px;
+}
+
+.plus:hover {
+  cursor: pointer;
+  background-color: #888;
+}
+
+.link-suggest {  
+  font-family: 'franklin', Arial, Helvetica, sans-serif;
+  color: #567b95;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-left: 15px;
 }
